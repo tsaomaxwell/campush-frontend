@@ -1,0 +1,8 @@
+$theme-colors: (
+  "primary": #59c3ff,
+  "secondary": #fafd85,
+);
+
+$font-family-base: "Biryani", sans-serif;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
