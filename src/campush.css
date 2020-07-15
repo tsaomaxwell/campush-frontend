@@ -1,3 +1,7 @@
 .my-banner {
   background: linear-gradient(#59c3ff, #ffffff);
 }
+
+.my-result {
+  background-color: #59c3ff40;
+}

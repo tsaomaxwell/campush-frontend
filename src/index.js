@@ -7,11 +7,13 @@ import "./custom.css";
 import "./campush.css";
 import Header from "./components/header";
 import Banner from "./components/banner";
+import Result from "./components/result";
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Banner />
+    <Result />
   </React.StrictMode>,
   document.getElementById("root")
 );
