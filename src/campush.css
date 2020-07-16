@@ -5,3 +5,8 @@
 .my-result {
   background-color: #59c3ff40;
 }
+
+.my-banner-image {
+  width: 30%;
+  fill: yellow;
+}
