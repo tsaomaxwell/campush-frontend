@@ -2,6 +2,10 @@
   background: linear-gradient(#59c3ff, #ffffff);
 }
 
+.my-landing-banner {
+  background: linear-gradient(#fafd85, #ffffff);
+}
+
 .my-result {
   background-color: #59c3ff40;
 }

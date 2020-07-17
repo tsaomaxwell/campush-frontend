@@ -4,6 +4,7 @@ import "./custom.css";
 import "./campush.css";
 import Header from "./components/header";
 import CategoryBanner from "./components/category-banner";
+import LandingBanner from "./components/landing-banner";
 import Result from "./components/result";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        <Route path="/" exact component={LandingBanner} />
         <Route
           path="/results"
           render={(props) => (
