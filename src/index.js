@@ -3,17 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import "./custom.css";
-import "./campush.css";
-import Header from "./components/header";
-import CategoryBanner from "./components/category-banner";
-import Result from "./components/result";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <CategoryBanner />
-    <Result />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

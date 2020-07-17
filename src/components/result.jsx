@@ -4,10 +4,21 @@ class Result extends Component {
   render() {
     return (
       <div className="container my-result">
-        <img src="#" alt="club name" />
-        <h1>Club Name</h1>
-        <p>this is the description</p>
-        <h4>(category)</h4>
+        <div className="d-flex text-primary">
+          <div className="align-self-center">
+            <img src={require("./btn.png")} alt="club name" />
+          </div>
+          <div className="p-4">
+            <h2>Business Transfer Network</h2>
+            <p>this is the description</p>
+          </div>
+          <div className="p-4">
+            <h4>quick info</h4>
+          </div>
+          <div className="ml-auto align-self-end">
+            <h4>business</h4>
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,10 +1,29 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./custom.css";
+import "./campush.css";
 import Header from "./components/header";
+import CategoryBanner from "./components/category-banner";
+import Result from "./components/result";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  return <Header />;
+  return (
+    <Router>
+      <div>
+        <Header />
+        <Route
+          path="/results"
+          render={(props) => (
+            <div>
+              <CategoryBanner />
+              <Result />
+            </div>
+          )}
+        />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
