@@ -6,6 +6,7 @@ import Header from "./components/header";
 import CategoryBanner from "./components/category-banner";
 import LandingBanner from "./components/landing-banner";
 import Result from "./components/result";
+import Category from "./components/category";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -13,7 +14,16 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route path="/" exact component={LandingBanner} />
+        <Route
+          path="/"
+          exact
+          render={(props) => (
+            <div>
+              <LandingBanner />
+              <Category />
+            </div>
+          )}
+        />
         <Route
           path="/results"
           render={(props) => (

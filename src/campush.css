@@ -13,3 +13,9 @@
 .my-banner-image {
   width: 30%;
 }
+
+.category-square {
+  background: #59c3ff;
+  position: relative;
+  overflow: hidden;
+}
