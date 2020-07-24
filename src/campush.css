@@ -19,3 +19,8 @@
   position: relative;
   overflow: hidden;
 }
+
+.text-link {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}

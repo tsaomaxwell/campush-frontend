@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { withRouter } from "react-router-dom";
 
 class Result extends Component {
   state = {
@@ -8,7 +9,9 @@ class Result extends Component {
 
   componentDidMount() {
     axios
-      .get(`http://localhost:9000/search/clubs?category=Business`)
+      .get(
+        `http://localhost:9000${window.location.pathname}${this.props.location.search}`
+      )
       .then((res) => {
         this.setState({ api: res.data });
       });
@@ -40,4 +43,4 @@ class Result extends Component {
   }
 }
 
-export default Result;
+export default withRouter(Result);
