@@ -7,7 +7,7 @@ import CategoryBanner from "./components/category-banner";
 import LandingBanner from "./components/landing-banner";
 import Result from "./components/result";
 import Category from "./components/category";
-import Footer from "./components/footer";
+import Footer from "./components/maxwell-components/footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
