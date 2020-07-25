@@ -19,3 +19,7 @@
   position: relative;
   overflow: hidden;
 }
+
+#footer-box {
+  background: linear-gradient( #ffffff, #97e473);
+}
