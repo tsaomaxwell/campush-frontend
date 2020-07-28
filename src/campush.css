@@ -21,5 +21,9 @@
 }
 
 #footer-box {
-  background: linear-gradient( #ffffff, #97e473);
+  background: linear-gradient(#ffffff, #97e473);
+}
+
+ul#menu li {
+  display: inline;
 }
