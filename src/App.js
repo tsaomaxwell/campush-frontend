@@ -5,11 +5,9 @@ import "./campush.css";
 import Header from "./components/header";
 import CategoryBanner from "./components/category-banner";
 import Result from "./components/result";
-<<<<<<< HEAD
-import Category from "./components/category";
+import Category from "./components/categories";
 import Footer from "./components/maxwell-components/footer";
-=======
->>>>>>> master
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LandingPage from "./components/landing-page";
 
