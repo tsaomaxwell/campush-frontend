@@ -4,29 +4,23 @@ import "./custom.css";
 import "./campush.css";
 import Header from "./components/header";
 import CategoryBanner from "./components/category-banner";
-import LandingBanner from "./components/landing-banner";
 import Result from "./components/result";
+<<<<<<< HEAD
 import Category from "./components/category";
 import Footer from "./components/maxwell-components/footer";
+=======
+>>>>>>> master
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LandingPage from "./components/landing-page";
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
+        <Route path="/" exact component={LandingPage} />
         <Route
-          path="/"
-          exact
-          render={(props) => (
-            <div>
-              <LandingBanner />
-              <Category />
-            </div>
-          )}
-        />
-        <Route
-          path="/results"
+          path="/search"
           render={(props) => (
             <div>
               <CategoryBanner />
