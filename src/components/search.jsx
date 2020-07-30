@@ -7,7 +7,8 @@ class Search extends Component {
   };
   _handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      this.props.history.push(`search/clubs?category=${this.state.query}`);
+      this.props.history.push(`/search/clubs?category=${this.state.query}`);
+      window.location.reload();
     }
   };
   queryChange = (evt) => {
