@@ -5,9 +5,9 @@ import { MDBCol, MDBRow } from "mdbreact";
 
 class Club extends Component {
   state = {
-    clubName: "myClub",{/** Replace with call to database */}
+    clubName: "myClub",
   };
-  
+
   render() {
     return (
       <div>
@@ -40,14 +40,14 @@ class Club extends Component {
           mainTextBox
           <div>
             <MDBRow>
-                {/** replace references with dynamic reference to database link */}
+              {/** replace references with dynamic reference to database link */}
               <a href="#!">mailIcon</a>
               <a href="#!">fbIcon</a>
               <a href="#!">instaIcon</a>
               <a href="#!">websiteIcon</a>
             </MDBRow>
             <MDBRow>
-                {/** stand in for an unknown implementation of an image list class */}
+              {/** stand in for an unknown implementation of an image list class */}
               imageClub.get(0) imageCLub.get(1) imageClub.get(2)
               imageClub.get(3)
             </MDBRow>
