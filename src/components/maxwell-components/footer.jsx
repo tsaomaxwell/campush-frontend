@@ -18,19 +18,6 @@ const Footer = () => {
         </MDBRow>
         &copy; {new Date().getFullYear()} Copyright: <a href="#!"> campush </a>
         <p>built with love by the campush team</p>
-        {/*<MDBCol size ="1">
-                  <a href="#!">about</a>
-            </MDBCol>
-            <MDBCol size ="1">
-                  <a href="#!">contact</a>
-            </MDBCol>
-            <MDBCol size ="1">
-                  <a href="#!">TOS</a>
-            </MDBCol>
-            <MDBCol size ="1">
-                  <a href="#!">privacy</a>
-            </MDBCol>
-            <MDBCol size="4"></MDBCol>*/}
       </div>
     </MDBFooter>
   );
