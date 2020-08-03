@@ -9,7 +9,7 @@ const Footer = () => {
         <MDBRow>
           <MDBCol size="4"></MDBCol>
           <MDBCol size="4">
-            <a href="#!">about-</a>
+            <a href="maxwell-components/about.html">about-</a>
             <a href="#!">-contact-</a>
             <a href="#!">-TOS-</a>
             <a href="#!">-privacy</a>
